@@ -1,0 +1,105 @@
+2020-06-03 16:29:38,511 - <string>[line:7] - INFO: 用例描述**************************************管理台登录
+2020-06-03 16:29:38,750 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:174] - INFO: 请求方式====>POST
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:175] - INFO: 请求地址====>https://campus-sit.sf-express.com/campusplus/test/pcLogin/admin
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:176] - INFO: 请求头====>""
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:177] - INFO: 请求参数====>""
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:178] - INFO: 请求体====>""
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:179] - INFO: 上传附件为======>None
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:180] - INFO: Cookies====>""
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:181] - INFO: 接口响应状态码====>200
+2020-06-03 16:29:38,751 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:182] - INFO: 接口响应头为====>{'Date': 'Wed, 03 Jun 2020 08:29:38 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Pinpoint-MonitorG': 'itim-ms-hq-hot-wheels-sit', 'Pinpoint-ProjectID': '05e18e029d8010de2f0dc00b6f8c085c', 'Pinpoint-TxType': 'ALL_/**', 'Server': 'elb'}
+2020-06-03 16:29:38,752 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:183] - INFO: 接口响应体为====>{"code":0,"msg":"success","data":{"token":"admin_9862e58b496768a0b6cb226b7e57002c","uname":"admin","nickName":"超级管理员"}}
+2020-06-03 16:29:38,752 - /Users/xiewenhui/Documents/github/ApiTestingFramework/testcase/test_case.py[line:47] - INFO: 保存 token-5d1a8d40-a574-11ea-b6b2-8c859043d68a=>admin_9862e58b496768a0b6cb226b7e57002c 到全局变量池
+2020-06-03 16:29:38,752 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：0 等于 预期值：0
+2020-06-03 16:29:38,752 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：success 等于 预期值：success
+2020-06-03 16:29:38,756 - <string>[line:7] - INFO: 用例描述**************************************学校新增
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:174] - INFO: 请求方式====>POST
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:175] - INFO: 请求地址====>https://campus-sit.sf-express.com/campusplus/school/add
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:176] - INFO: 请求头====>{
+    "Content-Type": "application/json",
+    "token": "admin_9862e58b496768a0b6cb226b7e57002c"
+}
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:177] - INFO: 请求参数====>""
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:178] - INFO: 请求体====>{
+    "wxCustomerId": "test",
+    "areaCode": "TEST_USE_A",
+    "areaName": "测试专用地区A",
+    "backDeposit": "0",
+    "useRunner": "0",
+    "phone": "13494450242",
+    "contact": "EifTest",
+    "address": "广东省深圳市",
+    "code": "name11",
+    "name": "name11",
+    "state": "0"
+}
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:179] - INFO: 上传附件为======>None
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:180] - INFO: Cookies====>""
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:181] - INFO: 接口响应状态码====>200
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:182] - INFO: 接口响应头为====>{'Date': 'Wed, 03 Jun 2020 08:29:39 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Pinpoint-MonitorG': 'itim-ms-hq-hot-wheels-sit', 'Pinpoint-ProjectID': '05e18e029d8010de2f0dc00b6f8c085c', 'Set-Cookie': 'JSESSIONID=6D289C853DD8E91ED93F684D9E884DF0; Path=/campusplus; HttpOnly', 'Pinpoint-TxType': 'ALL_/**', 'Server': 'elb'}
+2020-06-03 16:29:39,089 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:183] - INFO: 接口响应体为====>{"code":0,"msg":"success","data":null}
+2020-06-03 16:29:39,090 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：0 等于 预期值：0
+2020-06-03 16:29:39,090 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：success 等于 预期值：success
+2020-06-03 16:29:39,091 - <string>[line:7] - INFO: 用例描述**************************************学校查询
+2020-06-03 16:29:39,131 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:174] - INFO: 请求方式====>POST
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:175] - INFO: 请求地址====>https://campus-sit.sf-express.com/campusplus/school/queryList
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:176] - INFO: 请求头====>{
+    "Content-Type": "application/json",
+    "token": "admin_9862e58b496768a0b6cb226b7e57002c"
+}
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:177] - INFO: 请求参数====>""
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:178] - INFO: 请求体====>{
+    "name": "name11",
+    "contact": "EifTest",
+    "page": 1,
+    "limit": 10
+}
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:179] - INFO: 上传附件为======>None
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:180] - INFO: Cookies====>""
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:181] - INFO: 接口响应状态码====>200
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:182] - INFO: 接口响应头为====>{'Date': 'Wed, 03 Jun 2020 08:29:39 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Pinpoint-MonitorG': 'itim-ms-hq-hot-wheels-sit', 'Pinpoint-ProjectID': '05e18e029d8010de2f0dc00b6f8c085c', 'Pinpoint-TxType': 'ALL_/**', 'Server': 'elb'}
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:183] - INFO: 接口响应体为====>{"code":0,"msg":"success","data":{"totalCount":1,"pageSize":10,"totalPage":1,"currPage":1,"list":[{"id":4302,"code":"name11","name":"name11","address":"广东省深圳市","contact":"EifTest","phone":"13494450242","state":0,"createTime":"2020-06-03 16:29:39","areaCode":"TEST_USE_A","areaName":"测试专用地区A","useRunner":0,"backDeposit":0,"activeFlag":0,"departName":null,"branchCode":null}]}}
+2020-06-03 16:29:39,132 - /Users/xiewenhui/Documents/github/ApiTestingFramework/testcase/test_case.py[line:47] - INFO: 保存 schoolid-5d1a8d40-a574-11ea-b6b2-8c859043d68a=>4302 到全局变量池
+2020-06-03 16:29:39,133 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：0 等于 预期值：0
+2020-06-03 16:29:39,133 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：success 等于 预期值：success
+2020-06-03 16:29:39,134 - <string>[line:7] - INFO: 用例描述**************************************学校删除
+2020-06-03 16:29:39,169 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:174] - INFO: 请求方式====>POST
+2020-06-03 16:29:39,169 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:175] - INFO: 请求地址====>https://campus-sit.sf-express.com/campusplus/school/delete/4302
+2020-06-03 16:29:39,169 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:176] - INFO: 请求头====>{
+    "Content-Type": "application/json",
+    "token": "admin_9862e58b496768a0b6cb226b7e57002c"
+}
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:177] - INFO: 请求参数====>""
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:178] - INFO: 请求体====>""
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:179] - INFO: 上传附件为======>None
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:180] - INFO: Cookies====>""
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:181] - INFO: 接口响应状态码====>200
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:182] - INFO: 接口响应头为====>{'Date': 'Wed, 03 Jun 2020 08:29:39 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Pinpoint-MonitorG': 'itim-ms-hq-hot-wheels-sit', 'Pinpoint-ProjectID': '05e18e029d8010de2f0dc00b6f8c085c', 'Pinpoint-TxType': 'ALL_/**', 'Server': 'elb'}
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:183] - INFO: 接口响应体为====>{"code":0,"msg":"success","data":null}
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：0 等于 预期值：0
+2020-06-03 16:29:39,170 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：success 等于 预期值：success
+2020-06-03 16:29:39,172 - <string>[line:7] - INFO: 用例描述**************************************测试三下
+2020-06-03 16:29:39,213 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:174] - INFO: 请求方式====>POST
+2020-06-03 16:29:39,213 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:175] - INFO: 请求地址====>http://127.0.0.1:7080/api/add/register
+2020-06-03 16:29:39,213 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:176] - INFO: 请求头====>{
+    "Content-Type": "application/json",
+    "Authorization": "eyJhbGciOiJIUzUxMiIsImlhdCI6MTU4NTA1NjkyMCwiZXhwIjoxNTg1MDYwNTIwfQ.eyJpZCI6Mn0.jXJ0MoFI60GYSTQ-ObGR-D-IaMVRDAGVKz0xFu4SVKNhE3ifz39eeLKuuZuvYW8QzMr9dZagmLOO96hSWaGUvw",
+    "cache-control": "NoneNone"
+}
+2020-06-03 16:29:39,213 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:177] - INFO: 请求参数====>""
+2020-06-03 16:29:39,213 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:178] - INFO: 请求体====>{
+    "account": "None",
+    "password": "python",
+    "username": "None"
+}
+2020-06-03 16:29:39,213 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:179] - INFO: 上传附件为======>None
+2020-06-03 16:29:39,213 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:180] - INFO: Cookies====>""
+2020-06-03 16:29:39,214 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:181] - INFO: 接口响应状态码====>200
+2020-06-03 16:29:39,214 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:182] - INFO: 接口响应头为====>{'Content-Type': 'application/json', 'Content-Length': '87', 'Server': 'Werkzeug/0.14.1 Python/3.7.0', 'Date': 'Wed, 03 Jun 2020 08:29:39 GMT'}
+2020-06-03 16:29:39,214 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:183] - INFO: 接口响应体为====>{
+  "code": 4101, 
+  "msg": "\u8eab\u4efd\u4fe1\u606f\u6821\u9a8c\u5df2\u8fc7\u671f"
+}
+
+2020-06-03 16:29:39,214 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：4101 等于 预期值：4101
+2020-06-03 16:29:39,214 - /Users/xiewenhui/Documents/github/ApiTestingFramework/core/testBase.py[line:139] - INFO: 断言成功,实际值：身份信息校验已过期 等于 预期值：身份信息校验已过期
