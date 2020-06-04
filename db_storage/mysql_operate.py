@@ -40,4 +40,4 @@ class MySQLOperate():
 
 
 if __name__ == '__main__':
-    print(MySQLOperate("test").execute_sql("select *from student" ))
+    print(MySQLOperate("test").execute_sql("select * from user" ))

@@ -13,8 +13,8 @@ from core.readExcel import *
 from core.testBase import *
 import jsonpath
 from core.functions import *
-from db_operate.mysql_operate import MySQLOperate
-from db_operate.redis_operate import RedisOperate
+from db_storage.mysql_operate import MySQLOperate
+from db_storage.redis_operate import RedisOperate
 
 
 
@@ -135,7 +135,7 @@ class Test(unittest.TestCase):
 @data(*{sdata})
 @unpack
 def test_{sheet}_(self,descrption,url,method,headers,cookies,params,body,file,verify,saves,
-                                                                            dbtype,db,setup_sql,teardown_sql):
+                                                                            dbtype,db_storage,setup_sql,teardown_sql):
           
     logger.info("用例描述**************************************"+descrption)
     
@@ -157,9 +157,9 @@ def test_{sheet}_(self,descrption,url,method,headers,cookies,params,body,file,ve
     res = None
     # 判断数据库类型,暂时只有mysql,redis
     if dbtype.lower() == "mysql":
-        db_connect = MySQLOperate(db)
+        db_connect = MySQLOperate(db_storage)
     elif dbtype.lower() == "redis":
-        redis_db_connect = RedisOperate(db)
+        redis_db_connect = RedisOperate(db_storage)
     else:
         pass
 
@@ -217,7 +217,7 @@ def test_{sheet}_(self,descrption,url,method,headers,cookies,params,body,file,ve
 
     #最后关闭mysql数据库连接
     if db_connect:
-        db_connect.db.close()
+        db_connect.db_storage.close()
         
         
         '''

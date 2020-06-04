@@ -22,7 +22,7 @@ DB_IP = '127.0.0.1'
 PORT = 3306
 
 # redis数据库的连接信息
-# r = redis.Redis(host='127.0.0.1',port=6379,db=0,password='uncleyong@redis123123')
+# r = redis.Redis(host='127.0.0.1',port=6379,db_storage=0,password='uncleyong@redis123123')
 REDIS_HOST = '127.0.0.1'
 REDIS_PORT = 6379
 REDIS_PASSWORD = ''
