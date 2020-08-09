@@ -135,7 +135,7 @@ class Test(unittest.TestCase):
 @data(*{sdata})
 @unpack
 def test_{sheet}_(self,descrption,url,method,headers,cookies,params,body,file,verify,saves,
-                                                                            dbtype,db_storage,setup_sql,teardown_sql):
+                                                                            dbtype,db,setup_sql,teardown_sql):
           
     logger.info("用例描述**************************************"+descrption)
     

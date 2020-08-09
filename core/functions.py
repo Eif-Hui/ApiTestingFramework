@@ -12,6 +12,11 @@ import string
 import random
 import datetime
 import re
+from core.aiding_method import *
+
+def fakerdate(name):
+    return method_faker(arg=name)
+
 
 def varstr():
     return "name11"
