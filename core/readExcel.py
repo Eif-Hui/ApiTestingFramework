@@ -49,7 +49,7 @@ def read_excel(excel_path=BASE_PATH+"/conf/case.xlsx"):
         sheets_data.append(sheet_data)
 
     return sheets_data
-
+read_excel()
 # def read_excel_case_debug(debug_case_path=BASE_PATH+"/conf/debug_case.xlsx",sheel,cols):
 #     debug_case_path = None
 #     sheel =None
