@@ -18,7 +18,7 @@
 
 ## 环境部署
 - 解压压缩包，使用pycharm打开项目文件
-- 进入**File - Settings - Project - Project Interpreter**,选择项目中的 **ApiTestFrameWork/venv** 作为虚拟环境,若无法使用,可以尝试新增虚拟环境后,在控制台cd到**venv/Scripts**下,使用命令**pip install -r requirements.txt**文件所在的绝对路径（在项目根目录）,一条命令安装好所有依赖环境,你要做的就是慢慢等它装好
+- 进入**File - Settings - Project - Project Interpreter**,选择项目中的 **ApiTestingWork/venv** 作为虚拟环境,若无法使用,可以尝试新增虚拟环境后,在控制台cd到**venv/Scripts**下,使用命令**pip install -r requirements.txt**文件所在的绝对路径（在项目根目录）,一条命令安装好所有依赖环境,你要做的就是慢慢等它装好
 - 验证环境是否安装完毕
 - **File - Settings - Tools - Python Integrated Tools - Default Test Runner**选择**py.test**
 - 执行**manage.py**,观察结果是否成功,excel中有一条访问百度的用例,可以看看执行结果百度是否访问成功
