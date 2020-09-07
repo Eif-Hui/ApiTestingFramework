@@ -37,6 +37,7 @@
 - manage.py =============> 测试用例执行器
 - READMD.md ============> 项目说明文档
 
+
 ## EXCEL字段说明
 - **description**:用例描述
 - **url**:接口地址
@@ -72,6 +73,7 @@
 - RANDOMSTR(length) =========》 生成定长  数字+大小写字母组合 的字符串,length为字符串长度
 - NOW(format,hours) =========》 生成当前日期,format为日期格式,默认为  %Y-%m-%d %H:%M:%S ,可根据自己的需求修改,hours为小时偏移量  如 hours=1 代表当前时间加一小时,支持负数
 - REGEX(targetstr,pattern,index) =========》 正则提取器,targetstr为目标字符串,pattern为正则表达式,index为索引,意味着如果有多个匹配结果,你要提取你取到的第几个值,默认索引为0
+
 
 ### 如何在EXCEL中使用
 - 使用双下划綫开头,举栗子  **{"key":"__UUID()"}**  读取到框架里就会成  **{"key":"e2121e2n-1502-2849-9e1g-2r11974268kj"}**  

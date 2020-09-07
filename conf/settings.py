@@ -17,8 +17,8 @@ WHITELIST = [""]
 
 # mysql数据库的连接信息
 DB_NAME = 'root'
-DB_PASSWORD = '123456'
-DB_IP = '127.0.0.1'
+DB_PASSWORD = 'Ysh@#2020'
+DB_IP = '47.112.135.201'
 PORT = 3306
 
 # redis数据库的连接信息

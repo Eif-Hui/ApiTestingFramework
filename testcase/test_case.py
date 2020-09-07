@@ -136,7 +136,6 @@ class Test(unittest.TestCase):
 @unpack
 def test_{sheet}_(self,descrption,url,method,headers,cookies,params,body,file,verify,saves,
                                                                             dbtype,db,setup_sql,teardown_sql):
-          
     logger.info("用例描述**************************************"+descrption)
     
     url = self.build_param(url,"{id}")

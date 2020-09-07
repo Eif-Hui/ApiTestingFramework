@@ -39,5 +39,10 @@ class MySQLOperate():
         # return cursor.fetchone()
 
 
+
+
 if __name__ == '__main__':
-    print(MySQLOperate("test").execute_sql("select * from user" ))
+    db = MySQLOperate("date")
+    #print(db.execute_sql("select * from js_user" ))
+    print(db.query_dict("select * from js_user"))
+
